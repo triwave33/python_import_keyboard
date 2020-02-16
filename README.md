@@ -24,12 +24,11 @@ Pythonのimport文を入力する（だけの）キーボード
   
   1. 上記リンクを参考にQMK TOOLBOXTONEへのキーマップファイル（.hex）を書き込みできるようにしておく
   2. TONEフォルダ以下にこのリポジトリのimport_libraryをコピーする
-  3. 
+  3. qmk_firmware直下で以下のコマンドを実行
   ```
   make tone:import_library
   ```
-  
-  git cloneしたqmk_firmwareの
+  4. 生成されたhexファイルをQMK TOOLBOXで書き込む
   
   
   
