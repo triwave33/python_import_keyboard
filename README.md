@@ -23,7 +23,7 @@ Pythonのimport文を入力する（だけの）キーボード
   - 使用方法
   
   1. 上記リンクを参考にQMK TOOLBOXTONEへのキーマップファイル（.hex）を書き込みできるようにしておく
-  2. TONEフォルダ以下にこのリポジトリのimport_libraryをコピーする
+  2. qmk_firmware/keyboards/tone/keymappsフォルダ以下にこのリポジトリのimport_libraryをコピーする
   3. qmk_firmware直下で以下のコマンドを実行
   ```
   make tone:import_library
